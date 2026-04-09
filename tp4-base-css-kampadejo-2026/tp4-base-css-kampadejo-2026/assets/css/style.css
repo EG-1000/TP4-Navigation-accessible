@@ -22,23 +22,23 @@
 
 /* Normalize
    ========================================================================== */
-@import "_normalize.css";
+@import "normalize.css";
 
 /* Utilitaires (variables À DÉFINIR)
    ========================================================================== */
-@import "_utilitaires.css";
+@import "utilitaires.css";
 
 /* Charte typographique
    ========================================================================== */
-@import "_typo.css";
+@import "typo.css";
 
 /* Grille
    ========================================================================== */
-@import "_grille.css";
+@import "grille.css";
 
 /* Menu
    ========================================================================== */
-@import "_menu.css";
+@import "menu.css";
  
 
 
@@ -60,6 +60,8 @@
 
 .conteneur {
     padding: 0 20px;
+    display:flex;
+
 }
 
 @media (min-width: 48rem) {
@@ -100,6 +102,8 @@ a {
     width: 1em;
     height: 1em;
     vertical-align: middle;
+    color: transparent;
+  
 }
 
 .icone--courriel {
@@ -115,7 +119,9 @@ a {
 .icone--facebook {
     background: url(../images/facebook.svg) center center no-repeat;
     background-size: contain;
+    
 }
+
 
 figure {
     margin-top: 40px;
@@ -157,10 +163,18 @@ figcaption {
 }
 
 /* Menu principal */
-.logo {}
+.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
 
 @media (min-width: 48rem) {
-    .logo {}
+    .logo {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
 }
 
 

@@ -6,6 +6,10 @@
     
     <title>Kampadejo - Expériences de camping</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kampadejo - Expériences de camping inoubliables">
+    <script src="assets/js/menu.js" defer></script>
     <!-- Photos par Unsplash - https://unsplash.com/collections/315034/camping -->
     <!-- Icônes par Stephen Hutchings - Collection Typicons - Flaticon -->
 </head>
@@ -13,10 +17,31 @@
 <body>
     <!-- Lien Aller au contenu -->
     <header class="entete">
+        <div class="skip-link">
+             <a href="#contenu" class="screen-reader-only focusable">Aller au contenu</a>
+        </div>
         <div class="conteneur">
             <!-- Menu principal -->
-
-
+            <nav class="nav nav--closed">
+                <a href="index.html" class="logo">
+                    <!-- <img src="assets/images/logo.svg" alt="Kampadejo"> -->
+                     <img src="assets/images/logo.svg" alt="Kampadejo" height="50px">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a href="#entreprise" class="nav__link">Notre entreprise</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#experiences" class="nav__link">Nos expériences</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#contact" class="nav__link">Nous joindre</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <div class="conteneur accroche">
             <div class="texte">
@@ -44,7 +69,7 @@
             </div>
             <aside class="cols_5_de_12">
                 <figure>
-                    <img src="assets/images/fondateur.jpg" alt="">
+                    <img src="assets/images/fondateur.jpg" alt="Pierre-Luc, le fondateur de l'entreprise, accompagné de son chien Brad">
                     <figcaption>Pierre-Luc, le fondateur de l'entreprise, accompagné de son chien Brad</figcaption>
                 </figure>
             </aside>
@@ -155,19 +180,19 @@
                         <ul>
                             <li>
                                 <span>
-                                    <span class="">Courriel :</span>
+                                    <span class="icone icone--courriel">Courriel :</span>
                                 </span>
                                 <a href="mailto:pleinair@kampadejo.camp">pleinair@kampadejo.camp</a>
                             </li>
                             <li>
                                 <span>
-                                    <span class="">Téléphone :</span>
+                                    <span class="icone icone--telephone">Téléphone :</span>
                                 </span>
                                 <a href="tel:+14185555543">(418) 555-5543</a>
                             </li>
                             <li>
                                 <span>
-                                    <span class="">Facebook :</span>
+                                    <span class="icone icone--facebook">Facebook :</span>
                                 </span>
                                 <a href="http://www.facebook.com" target="_blank">Facebook</a>
                             </li>

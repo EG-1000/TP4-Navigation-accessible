@@ -20,6 +20,9 @@
     border: none;
     padding: 10px;
     min-width: 40px;
+  margin-left : auto;
+    margin-right : 10%;
+    cursor: pointer;
 }
 
 @media (min-width: 40rem) {
@@ -57,21 +60,38 @@
     width: 1em;
     height: 1em;
     /* compléter pour afficher l’icône X */
+    background-image: url('../images/ico-fermer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .nav--closed .nav__control:before {
     /* compléter pour afficher l’icône Hamburger */
+  background-image: url('../images/ico-menu.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Liste du menu */
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
     max-height: none;
+
 }
 
 @media (min-width: 40rem) {
+    .nav {
+        flex-direction: row;
+    }
     .nav__list-item {
         display: inline-block;
     }
@@ -79,7 +99,6 @@
 
 /* Liens du menu */
 .nav__link {
-    background-color: rgba(145, 0, 145, 0.2);
     display: block;
     padding: 5px 10px;
     width: 100%;
