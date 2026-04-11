@@ -16,14 +16,14 @@
 ### 2 - intégrer les contenus multimédias de manière accessible 
 #### (1 point)
 - [x] Intégrer un lien rapide « aller au contenu »
-- [ ] Intégrer une navigation par régions en utilisant l'attribut `role` et les valeurs `"banner", "main", "contentinfo", "complementary"`
+- [x] Intégrer une navigation par régions en utilisant l'attribut `role` et les valeurs `"banner", "main", "contentinfo", "complementary"`
 - [x] Utilisation de la classe `screen-reader-only` pour cacher visuellement les libellés "courriel", "téléphone" et "facebook" tout en les gardant accessibles
 - [x] Dans le pied de page, les icônes SVG sont cachés des lecteurs d'écran avec aria-hidden="true"
 #### commentaires
 
 ### 3 - intégrer un menu JavaScript en amélioration progressive 
 #### (2 points) 
-- [ ] Sans JavaScript, le menu est déployé et le code source n'est pas encombré par un bouton inutile 
+- [x] Sans JavaScript, le menu est déployé et le code source n'est pas encombré par un bouton inutile 
 - [x] Les changements d’apparence se font par des bascules de classes
 - [x] Les styles propres à la version enrichie sont conditionnels à la classe "js"
 - [x] Les libellés "Menu" ou "Fermer" du `<button>` sont perceptibles
@@ -36,8 +36,8 @@ __Styler un menu responsive. Styler l'interactivité.
 Conforme selon les captures-écrans fournies pour écran étroit et pour écran large.__
 #### (2 points)
 - [x] Le positionnement du menu est conforme
-- [ ] L'état __:hover__ sur les hyperliens et le bouton de menu est conforme 
-- [ ] L'état __:focus__ sur les hyperliens et le bouton de menu est conforme
+- [x] L'état __:hover__ sur les hyperliens et le bouton de menu est conforme 
+- [x] L'état __:focus__ sur les hyperliens et le bouton de menu est conforme
 - [x] Les icônes SVG du bouton de menu et du pied de page sont placés
 #### commentaires
 
@@ -54,7 +54,7 @@ Conforme selon les captures-écrans fournies pour écran étroit et pour éc
 
 
 ## Note estimée
-<span style='color:red'></span>
+<span style='color:red'>A+</span>
 
 ## Barème
 | Barème | sur 1 |
